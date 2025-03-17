@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "SpringCloud",
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "disabled",
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
