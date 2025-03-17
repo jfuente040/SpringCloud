@@ -1,8 +1,16 @@
 {
 	"folders": [
 		{
-			"name": "SpringCloud",
-			"path": "."
+			"path": "msvc-items"
+		},
+		{
+			"path": "msvc-products"
+		},
+		{
+			"path": "config-server"
+		},
+		{
+			"path": "../configuraciones_centralizadas/springcloud/config"
 		}
 	],
 	"settings": {
