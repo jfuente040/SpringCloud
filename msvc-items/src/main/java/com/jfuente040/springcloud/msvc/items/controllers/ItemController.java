@@ -49,11 +49,15 @@ public class ItemController {
         this.itemService = itemService;
     }
 
+    //sin la ruta base o path especificado en la anotación @FeignClient
+    //@GetMapping("/api/products")   
     @GetMapping()
     public List<ItemDTO> list() {
         return itemService.findAll();
     }
 
+    //sin la ruta base o path especificado en la anotación @FeignClient
+    //@GetMapping("/api/products/{id}")   
     @GetMapping("/{id}")
     public ResponseEntity<?> details(@PathVariable Long id) {        
         Optional<ItemDTO> opt = itemService.details(id);

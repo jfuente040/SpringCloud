@@ -1,15 +1,23 @@
 {
 	"folders": [
 		{
+			"name": "msvc-items",
 			"path": "msvc-items"
 		},
 		{
+			"name": "msvc-products",
 			"path": "msvc-products"
 		},
 		{
+			"name": "config-server",
 			"path": "config-server"
 		},
 		{
+			"name": "eureka-server",
+			"path": "eureka-server"
+		},
+		{
+			"name": "config",
 			"path": "../configuraciones_centralizadas/springcloud/config"
 		}
 	],

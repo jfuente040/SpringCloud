@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.jfuente040.springcloud.msvc.items.models.ProductDTO;
 
-@FeignClient(name = "msvc-products")
+@FeignClient(name = "msvc-products", path = "/api/products")
+//@FeignClient(name = "msvc-products", url = "localhost:56896/api/products")
 public interface ProductFeignClient {
 
     @GetMapping
